@@ -85,8 +85,8 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '하') {
-    message.reply('하');
+  if(message.content === '아 진짜 이 말 때문에 화') {
+    message.reply('려한 조명이 나비보벳따우');
   }
 });
 
