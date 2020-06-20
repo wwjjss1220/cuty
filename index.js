@@ -108,4 +108,22 @@ client.on('message', (message) => {
   }
 });
 
+client.on('message', (message) => {
+  if(message.content === '메이플') {
+    message.reply('"갓겜"');
+  }
+});
+
+client.on('message', (message) => {
+  if(message.content === '쥬지르나듐') {
+    message.reply('쥬(이롱조만) 지(하지만조롱이죠) 르(노죠바나) 나(는맜있어) 둠(의수확롱이쥬?)');
+  }
+});
+
+client.on('message', (message) => {
+  if(message.content === '종환이는') {
+    message.reply('조롱이쥬ㅅㄱ');
+  }
+});
+
 client.login(token);
