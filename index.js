@@ -55,12 +55,6 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '-엄') {
-    message.reply('(마가) 준(비해준) 식(사)');
-  }
-});
-
-client.on('message', (message) => {
   if(message.content === '메롱이') {
     message.reply('"너"');
   }
@@ -81,12 +75,6 @@ client.on('message', (message) => {
 client.on('message', (message) => {
   if(message.content === '너 메롱이 ㅅㄱ') {
     message.reply('귀요미가 뭐라는건지 모르겠네>?');
-  }
-});
-
-client.on('message', (message) => {
-  if(message.content === '아 진짜 이 말 때문에 화') {
-    message.reply('려한 조명이 나비보벳따우');
   }
 });
 
@@ -123,6 +111,18 @@ client.on('message', (message) => {
 client.on('message', (message) => {
   if(message.content === '종환이는') {
     message.reply('조롱이쥬ㅅㄱ');
+  }
+});
+
+client.on('message', (message) => {
+  if(message.content === '만두만두') {
+    message.reply('메롱만두');
+  }
+});
+
+client.on('message', (message) => {
+  if(message.content === '삐짐 ㅅㄱ') {
+    message.reply('삐지면 메찌임');
   }
 });
 
