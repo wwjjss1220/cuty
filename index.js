@@ -126,4 +126,16 @@ client.on('message', (message) => {
   }
 });
 
+client.on('message', (message) => {
+  if(message.content === '"야 장종환"') {
+    message.reply('왜 불러~');
+  }
+});
+
+client.on('message', (message) => {
+  if(message.content === '안삐짐') {
+    message.reply('그래도 조롱이임 ㅅㄱ');
+  }
+});
+
 client.login(token);
