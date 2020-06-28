@@ -73,12 +73,6 @@ client.on('message', (message) => {
 });
 
 client.on('message', (message) => {
-  if(message.content === '너 메롱이 ㅅㄱ') {
-    message.reply('귀요미가 뭐라는건지 모르겠네>?');
-  }
-});
-
-client.on('message', (message) => {
   if(message.content === 'ㅁㄹ') {
     message.reply('ㅃㅈ');
   }
