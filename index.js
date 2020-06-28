@@ -138,4 +138,10 @@ client.on('message', (message) => {
   }
 });
 
+client.on('message', (message) => {
+  if(message.content === '야스') {
+    message.reply('야외섹스');
+  }
+});
+
 client.login(token);
